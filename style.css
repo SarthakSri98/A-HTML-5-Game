@@ -1,0 +1,26 @@
+@keyframes btnAnim{
+  from { border:2px solid transparent;}
+  to { border:2px solid black;}
+}
+canvas
+{
+  border: 2px solid black;
+  border: 4px red solid;
+}
+.footer{
+  position:relative;
+  bottom:0;
+}
+.fa
+{
+  color:red;
+}
+body{
+  background-image:url('https://cdn.wallpapertracker.com/43/85/Rm1e8w.jpg');
+}
+.btnAnim{
+  animation: btnAnim .4s infinite;
+}
+.hide{
+  visibility:none;
+}
